@@ -8,16 +8,16 @@ import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 const page = () => {
   return (
-    <div>
-<Header/>
-<HeroSection/>
-<Further/>
-<Blog/>
-<Ourteam/>
-<Testimonials/>
-<Footer/>
-      
-    </div>
+    <><title>Desktop</title><div>
+      <Header />
+      <HeroSection />
+      <Further />
+      <Blog />
+      <Ourteam />
+      <Testimonials />
+      <Footer />
+
+    </div></>
   )
 }
 
